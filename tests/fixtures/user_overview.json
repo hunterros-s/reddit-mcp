@@ -1,0 +1,40 @@
+{
+  "kind": "Listing",
+  "data": {
+    "children": [
+      {
+        "kind": "t3",
+        "data": {
+          "title": "User's Post Title",
+          "author": "testuser",
+          "subreddit": "python",
+          "score": 50,
+          "permalink": "/r/python/comments/post123/users_post_title/",
+          "created_utc": 1700000000.0
+        }
+      },
+      {
+        "kind": "t1",
+        "data": {
+          "author": "testuser",
+          "body": "This is a comment the user made on another post.",
+          "subreddit": "learnpython",
+          "score": 15,
+          "permalink": "/r/learnpython/comments/other456/some_post/comment789/",
+          "created_utc": 1700000100.0
+        }
+      },
+      {
+        "kind": "t1",
+        "data": {
+          "author": "testuser",
+          "body": "A very long comment that exceeds two hundred characters. This comment goes on and on to test the truncation functionality. It keeps going and going to make sure we hit the limit and see the ellipsis added at the end of the truncated text.",
+          "subreddit": "programming",
+          "score": 3,
+          "permalink": "/r/programming/comments/prog789/another_post/comment101/",
+          "created_utc": 1700000200.0
+        }
+      }
+    ]
+  }
+}

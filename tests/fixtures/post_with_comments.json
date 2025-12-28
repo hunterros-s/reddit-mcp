@@ -1,0 +1,77 @@
+[
+  {
+    "kind": "Listing",
+    "data": {
+      "children": [
+        {
+          "kind": "t3",
+          "data": {
+            "title": "Test Post With Comments",
+            "author": "postauthor",
+            "subreddit": "python",
+            "score": 150,
+            "num_comments": 42,
+            "permalink": "/r/python/comments/xyz789/test_post_with_comments/",
+            "selftext": "This is the post body with **markdown**.",
+            "url": "https://www.reddit.com/r/python/comments/xyz789/test_post_with_comments/",
+            "is_self": true,
+            "created_utc": 1700000000.0
+          }
+        }
+      ]
+    }
+  },
+  {
+    "kind": "Listing",
+    "data": {
+      "children": [
+        {
+          "kind": "t1",
+          "data": {
+            "author": "commenter1",
+            "body": "This is a top-level comment.",
+            "score": 25,
+            "permalink": "/r/python/comments/xyz789/test_post_with_comments/comment1/",
+            "created_utc": 1700000100.0,
+            "replies": {
+              "kind": "Listing",
+              "data": {
+                "children": [
+                  {
+                    "kind": "t1",
+                    "data": {
+                      "author": "replier1",
+                      "body": "This is a reply to the first comment.",
+                      "score": 10,
+                      "permalink": "/r/python/comments/xyz789/test_post_with_comments/reply1/",
+                      "created_utc": 1700000200.0,
+                      "replies": ""
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "kind": "t1",
+          "data": {
+            "author": "commenter2",
+            "body": "Another top-level comment here.",
+            "score": 5,
+            "permalink": "/r/python/comments/xyz789/test_post_with_comments/comment2/",
+            "created_utc": 1700000300.0,
+            "replies": ""
+          }
+        },
+        {
+          "kind": "more",
+          "data": {
+            "count": 10,
+            "children": ["more1", "more2"]
+          }
+        }
+      ]
+    }
+  }
+]

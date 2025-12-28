@@ -1,0 +1,38 @@
+{
+  "kind": "Listing",
+  "data": {
+    "after": "t3_abc123",
+    "children": [
+      {
+        "kind": "t3",
+        "data": {
+          "title": "Test Post Title",
+          "author": "testuser",
+          "subreddit": "python",
+          "score": 42,
+          "num_comments": 15,
+          "permalink": "/r/python/comments/abc123/test_post_title/",
+          "selftext": "This is the post body content.",
+          "url": "https://www.reddit.com/r/python/comments/abc123/test_post_title/",
+          "is_self": true,
+          "created_utc": 1700000000.0
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "title": "Link Post Example",
+          "author": "linkuser",
+          "subreddit": "python",
+          "score": 100,
+          "num_comments": 25,
+          "permalink": "/r/python/comments/def456/link_post_example/",
+          "selftext": "",
+          "url": "https://example.com/article",
+          "is_self": false,
+          "created_utc": 1700000100.0
+        }
+      }
+    ]
+  }
+}

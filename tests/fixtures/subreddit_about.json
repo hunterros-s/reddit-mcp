@@ -1,0 +1,13 @@
+{
+  "kind": "t5",
+  "data": {
+    "display_name": "python",
+    "title": "Python",
+    "public_description": "The official Python community for Reddit!",
+    "description": "News about Python programming.\n\nRelated subreddits:\n* /r/learnpython\n* /r/django\n* /r/flask\n* /r/pygame",
+    "subscribers": 1500000,
+    "created_utc": 1201230879.0,
+    "over18": false,
+    "subreddit_type": "public"
+  }
+}
