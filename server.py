@@ -294,6 +294,14 @@ async def _search_internal(query: str, subreddit: str | None = None, sort: str =
 
 
 @mcp.tool
+def rate_limit_status() -> str:
+    """Get current Reddit API rate limit status"""
+    remaining = rate_limiter.remaining
+    reset_in = max(0, rate_limiter.reset_at - time.time())
+    return f"Remaining: {remaining:.0f} requests\nResets in: {reset_in:.0f} seconds"
+
+
+@mcp.tool
 async def get_subreddit_info(name: str) -> str:
     """
     Get subreddit metadata including description, subscriber count, and related subreddits.

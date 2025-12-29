@@ -26,6 +26,7 @@ fastmcp run server.py      # Production
 | `get_post` | Post + comments |
 | `get_user` | User activity |
 | `search` | Search Reddit |
+| `rate_limit_status` | Current API quota |
 
 ## Output
 
